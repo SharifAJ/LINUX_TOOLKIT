@@ -33,7 +33,7 @@ linux-system-toolkit/
 
 ---
 
-# Step 1 — System Health Script
+System Health Script
 
 File: scripts/system_health.sh
 
@@ -69,7 +69,7 @@ chmod +x scripts/system_health.sh
 
 ---
 
-# Step 2 — Disk Usage Monitor
+Disk Usage Monitor
 
 File: scripts/disk_monitor.sh
 
@@ -97,7 +97,7 @@ chmod +x scripts/disk_monitor.sh
 
 ---
 
-# Step 3 — Log Analyzer
+Log Analyzer
 
 File: scripts/log_analyzer.sh
 
@@ -112,7 +112,7 @@ grep -i "error" $LOG_FILE | tail -n 20
 
 ---
 
-# Step 4 — Cleanup Script
+Cleanup Script
 
 File: scripts/cleanup.sh
 
@@ -130,7 +130,7 @@ echo "Cleanup completed."
 
 ---
 
-# Step 5 — Backup Script
+Backup Script
 
 File: scripts/backup.sh
 
@@ -143,7 +143,7 @@ echo "Backup completed"
 
 ---
 
-# Step 6 — Cron Automation
+Cron Automation
 
 Open cron:
 
@@ -159,7 +159,7 @@ Add:
 
 ---
 
-# Step 7 — NGINX Real World Task
+NGINX Real World Task
 
 Install Nginx:
 
